@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { Mail, Phone, MapPin, Moon, Sun } from "lucide-react";
-import cvFile from "./assets/cv/CV_Kasama_Soisuwan.pdf";
+import cvFile from "./assets/cv/CV_Kasama-Soisuwan.pdf";
 import {
   PROFILE,
   PROJECTS,
@@ -791,7 +791,7 @@ export default function Portfolio() {
           <div style={{ flex: isMobile ? 0 : 1, display: "flex", justifyContent: "flex-end" }}>
             <a
               href={cvFile}
-              download="CV_Kasama_Soisuwan.pdf"
+              download="CV_Kasama-Soisuwan.pdf"
               style={{ fontSize: 12, color: T.muted, textDecoration: "none", borderBottom: `1px solid ${T.borderTag}`, whiteSpace: "nowrap" }}
             >
               {t.downloadCV}
