@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { createPortal } from "react-dom";
 import { Mail, Phone, MapPin, Moon, Sun } from "lucide-react";
-import cvFile from "./assets/cv/CV_Kasama-Soisuwan.pdf";
+const cvFile = "/CV_Kasama-Soisuwan.pdf";
 import {
   PROFILE,
   PROJECTS,
